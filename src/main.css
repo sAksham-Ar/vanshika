@@ -1,0 +1,14 @@
+.main{
+    padding:0 19% 0 19%;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    color:yellow;
+    text-align: center;
+}
+.main img{
+    width:20vw;
+    height: auto;
+    
+}

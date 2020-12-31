@@ -1,0 +1,19 @@
+ul{
+    color:white;
+    list-style-type: none;
+    padding:0 40% 0 40%;
+    
+}
+li{
+    display: inline-block;
+    white-space: nowrap;
+    padding:0 20% 0 0;
+    
+}
+.link{
+    text-decoration: none!important;
+    color:white;
+}
+.selected{
+    color: yellow;
+}

@@ -1,0 +1,56 @@
+
+.app{
+    min-height: 100%;
+    
+}
+.poems-list{
+    padding-top: 5%;
+}
+.poem h1{
+  color: yellow;
+
+}
+.poem a{
+    display: block;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.gallery img{
+    height: auto;
+    width: 40vw;
+    display:none;
+    margin: auto;
+}
+.gallery{
+    padding:20%;
+
+}
+.gallery button{
+    background-color: transparent;
+    border:none;
+    color: yellow;
+    font-size: 30px;
+}
+.gallery button:focus{
+    outline: none;
+}
+.gallery img:first-of-type{
+    display: block;
+}
+.left{
+   float: left;
+
+    
+}
+.right{
+    float: right;
+
+}
+.videos{
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
