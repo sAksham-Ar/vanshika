@@ -9,7 +9,6 @@ import {
  import Gallery from './gallery';
  import Poems from './poems';
  import Single from './Single';
- import Videos from './videos';
 function Navbar()
 {
    return(
@@ -40,21 +39,12 @@ function Navbar()
               Gallery
             </NavLink>
           </li>
-          <li>
-            <NavLink 
-               className='link'
-              to="/videos" 
-              activeClassName="selected">
-              Videos
-            </NavLink>
-          </li>
         </ul>
       </nav>
       <Switch>
       <Route path="/" exact component={() => <Main />} />
           <Route path="/poems" exact component={() => <Poems />} />
           <Route path="/gallery" exact component={() => <Gallery />} />
-          <Route path="/videos" exact component={() => <Videos />} />
           <Route path="/poems/:id" exact component={Single}/>
           </Switch>
     </Router>
